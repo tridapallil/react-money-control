@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-11-04T17:43:20.060Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Venda",
+      "price": 50,
+      "createdAt": "2023-11-04T17:43:20.060Z"
+    },
+    {
+      "description": "Pizza",
+      "type": "outcome",
+      "price": 55,
+      "category": "Venda",
+      "createdAt": "2023-11-06T16:02:45.662Z",
+      "id": 3
+    }
+  ]
+}

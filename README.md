@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Cost Control Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The Cost Control Project was developed using React, Hooks, and Context to efficiently manage the application's state. Integration with the API was implemented using the server-json library, which simulates a backend to enable frontend development without the need for a running backend. The project aims to allow users to control their personal expenses by adding expenses and income to their virtual wallet.
 
-Currently, two official plugins are available:
+## Technologies Used
+- Server-json
+- Axios
+- Eslint
+- Zod
+- Styled-components
+- Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Library Details:
+- **Axios**: Used to make HTTP requests to the simulated API.
+- **Server-json**: Library used to simulate a backend and provide data for the frontend application.
+- **Eslint**: Used to maintain clean and consistent code, following coding best practices.
+- **Zod**: Used for data validation, ensuring the integrity of the data manipulated by the application.
+- **Styled-components**: Used to facilitate the styling of React components, allowing for easier and more organized styling.
+- **Vite**: Used as a bundler for the project, offering a fast and efficient development environment.
 
-## Expanding the ESLint configuration
+## Key Features
+- Addition of expenses and money entries to the virtual wallet.
+- Summary to see the wallet resume.
+- Control of expenses and income.
+- Viewing transaction history.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## How to Run the Project
+1. Clone this repository to your local machine.
+2. Make sure you have Node.js and npm installed on your system.
+3. Run the command `npm install` to install all project dependencies.
+4. Use the command `npm run dev` to start the development server.
+5. Use the command `npm run dev:server` to start the "backend" development server.
+6. Access the application in the browser using the address `http://localhost:5137`.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
